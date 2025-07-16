@@ -11,8 +11,10 @@ btn.addEventListener("click",function(){
         wCondition.innerHTML = "Weight Condition : Under Weight";
     } else if(ans>19.1 && ans<27){
         wCondition.innerHTML = "Weight Condition : Normal Weight";
-    } else {
+    } else if(ans>27){
         wCondition.innerHTML = "Weight Condition : Over Weight";
+    } else {
+        wCondition.innerHTML = "Weight Condition : Enter proper data";
     }
     setTimeout(()=>{
         weight.value = "";
