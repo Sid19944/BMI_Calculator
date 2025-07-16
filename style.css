@@ -55,6 +55,10 @@ input:hover {
 #Calculate:hover {
     box-shadow: 3px 3px 20px white;
 }
+#Calculate:active {
+    background: linear-gradient(45deg, rgb(0, 0, 255), rgb(252, 1, 252));
+    color: white;
+}
 .footer {
     padding: 10px 0;
 }
