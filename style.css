@@ -1,3 +1,4 @@
+/* Made by Siddharth */
 body {
     background: linear-gradient(45deg, rgb(3, 3, 224), rgb(164, 1, 164));
     color : whitesmoke;
@@ -7,6 +8,7 @@ body {
     flex-direction: column;
     padding: 20px;
     max-width: 600px;
+    min-width: 260px;
     position: absolute;
     top: 50%;
     left: 50%;
